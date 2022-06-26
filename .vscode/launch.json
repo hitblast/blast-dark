@@ -1,0 +1,16 @@
+// This file can be used for debugging / previewing the theme if you're trying to customize it.
+// To start, press F5 or just navigate to Run > Start Debugging and you're good to go!
+
+{
+	"version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Extension",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "blast-dark",
+    "displayName": "Blast Dark",
+    "description": "An aesthetic VSCode theme, completely developed outta randomness.",
+    "icon": "assets/icon.png",
+    "version": "0.0.1",
+    "publisher": "HitBlast",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hitblast/blast-dark"
+    },
+    "license": "MIT",
+    "keywords": [
+        "theme",
+        "dark theme",
+        "aesthetic",
+        "lukewarm",
+        "industrial",
+        "blast dark",
+        "blast dark theme",
+        "blastdark"
+    ],
+    "engines": {
+        "vscode": "^1.68.1"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blast Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Blast Dark-color-theme.json"
+            }
+        ]
+    }
+}
